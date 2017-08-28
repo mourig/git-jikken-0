@@ -27,6 +27,7 @@
 
 #include <stdlib.h>
 #include <stdbool.h>
+#include <windows.h>
 
 extern size_t EstimateBas64EncodedDataSize(size_t inDataSize);
 extern size_t EstimateBas64DecodedDataSize(size_t inDataSize);
